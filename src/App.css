@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+#root {
+    background-image: linear-gradient(90deg, #0F2027, #203A43, #2C5364);
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    padding: 25vh 10vw;
+}
+
+#app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80vw;
+    max-width: 350px;
+    height: 50vh;
+    margin: auto;
+
+    background-color: #F2F2F2;
+    border-radius: 15px;
+}
+
+#app h2 {
+    height: 15vh;
+    line-height: 15vh;
+    font-size: 2rem;
+    font-family: 'Rowdies', cursive;
+    color: #203A43;
+}
+
+#app #calculator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+    width: 100%;
+    margin-bottom: 5vh;
+}
+
+#app #calculator input, 
+#app #calculator p {
+    width: 80%;
+    height: 7vh;
+
+    margin: 1vh 0;
+    box-sizing: border-box;
+    line-height: 7vh;
+
+    padding: 0px 0px 0px 5px;
+
+    border: 1px #ece9e6 solid;
+    border-radius: 5px;
+    background-color: white;
+
+    font-size: 1rem;
+}
+
+#app #calculator input::-webkit-outer-spin-button,
+#app #calculator input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#app button {
+    border: none;
+}
+
+#app button:hover {
+    opacity: 0.6;
+}
+
+#app input:focus,
+#app button:focus {
+    outline: none;
+}
+
+#app img {
+    width: 30px;
+    padding: 2vh 0;
+}
